@@ -1,0 +1,25 @@
+{
+	"database": {
+		"user_name": "emp0wer",
+		"password": "H_Do0}-Mq}5R",
+		"connection_url": "mongodb://emp0wer:H_Do0}-Mq}5R@ds011775.mlab.com:11775/basic_api",
+		"database_name": "basic_api",
+		"collection_name": "tweets"
+	},
+	"test_database": {
+		"user_name": "emp0wer",
+		"password": "H_Do0}-Mq}5R",
+		"connection_url": "mongodb://emp0wer:H_Do0}-Mq}5R@ds011775.mlab.com:11775/basic_api",
+		"database_name": "basic_api",
+		"collection_name": "test_tweets"
+	},
+	"twitter": {
+		"consumer_key": "OwAfPwmNu66UVpHX0Ws5RDugJ", 
+		"consumer_secret": "SPpDXnL2FwzHH9Hsuebc1AMCgg0w7SGyz1GnItsIyhgPa8XXgE",
+		"access_key": "747413091181268992-kh81yAIna6uA8b5ngwdfKkZzSb1upuX",
+		"access_secret": "z5tyMEhYcX2b6LMLbkpLS8wACWVghI2viy5Rpp6zupWeH"
+	},
+	"google": {
+		"credentials": "AIzaSyAHSEfMNowWPw5CkxIpRx7g2nGgXu0q0UI"
+	}
+}
