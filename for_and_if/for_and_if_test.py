@@ -6,6 +6,7 @@ class TestForAndIf(unittest.TestCase):
 
 	def test_if_divisable_by_three(self):
 		result = if_divisable_by_three([1, 2, 4, 5, 6, 7, 8, 9])
+
 		self.assertEqual(result, [6, 9])
 
 		result = if_divisable_by_three([1, 2, 4, 5, 7, 8])
@@ -20,14 +21,7 @@ class TestForAndIf(unittest.TestCase):
 
 	# def test_unpack_list_of_list(self):
 
-	# 	result = unpack_list_of_list([
-	# 							["a", "b", "c", "d", "e"],
-	# 							["f", "g", "h", "i", "j"],
-	# 							["k", "l", "m", "n", "o"],
-	# 							["p", "q", "r", "s", "t"],
-	# 							["u", "v", "w", "x", "y"],
-	# 							["z"]
-	# 						 ])
+	# 	result = unpack_list_of_list([["a", "b", "c", "d", "e"], ["f", "g", "h", "i", "j"], ["k", "l", "m", "n", "o"], ["p", "q", "r", "s", "t"], ["u", "v", "w", "x", "y"], ["z"]])
 	# 	self.assertEqual(result, ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])
 
 	# 	result = unpack_list_of_list([
@@ -38,6 +32,8 @@ class TestForAndIf(unittest.TestCase):
 	# 	self.assertEqual(result, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 
 	# def test_if_key_in_dictionary(self):
+
+	# 	#test case 1
 
 	# 	test_dct = {
 	# 		"blue": "ocean",
@@ -50,6 +46,8 @@ class TestForAndIf(unittest.TestCase):
 
 	# 	result = if_key_in_dictionary(test_dct, test_lst)
 	# 	self.assertEqual(result, ["blue", "purple"])
+
+	# 	#test case 2
 
 	# 	test_dct = {
 	# 		"salty": "chips",
