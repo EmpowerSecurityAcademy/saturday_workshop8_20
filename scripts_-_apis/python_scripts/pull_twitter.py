@@ -8,10 +8,10 @@ from pymongo import MongoClient
 
 config = load_config()
 
-client = MongoClient(config["database"]["connection_url"])
+# client = MongoClient(config["database"]["connection_url"])
 
-db = client[config['database']['database_name']]
-conn = db[config['database']['collection_name']]
+# db = client[config['database']['database_name']]
+# conn = db[config['database']['collection_name']]
 
 def get_tweets():
 
@@ -29,7 +29,7 @@ def get_tweets():
 		extracted_data["twitter_id"] = tweet.id_str
 		extracted_data["created_at"] = tweet.created_at
 		extracted_data["text"] = tweet.text.encode("utf-8")
-		conn.insert_one(extracted_data)
+		# conn.insert_one(extracted_data)
 		print(extracted_data)
 
 if __name__ == '__main__':
